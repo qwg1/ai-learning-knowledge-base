@@ -36,3 +36,8 @@
 - 已制定从GitHub学习MCP、区块链、加密货币、AI助手、编程等知识的方案
 - 知识库仓库: https://github.com/qwg1/ai-learning-knowledge-base
 - 持续更新和自我进化机制已建立
+
+## 自动化测试技能
+- 可使用OpenClaw进行Web应用自动化测试
+- 能够创建全面的测试计划和测试用例
+- 具备API测试、功能测试、安全测试等综合能力
