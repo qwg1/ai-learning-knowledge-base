@@ -26,9 +26,16 @@ git remote add origin <your-github-repository-url>
 
 2. 推送到GitHub:
 ```bash
-git branch -M main
-git push -u origin main
+git branch -M master          # 使用master分支
+git push -u origin master     # 推送到master
 ```
+
+## ⚠️ 重要提醒
+
+- **只使用 master 分支**
+- **不要创建 main 分支**
+- **操作前先读知识库文档**
+- **发现文档错误要及时更新**
 
 ## 已准备的文件
 
