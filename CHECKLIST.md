@@ -218,6 +218,8 @@ memory_get GIT_RETROSPECT.md
 3. ✅ 创建CFB支付分析文档
 4. ✅ 创建项目README
 5. ✅ 按知识库>记忆原则操作
+6. ✅ 先提交再推送
+7. ✅ 验证推送结果
 
 ---
 
