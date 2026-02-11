@@ -1,0 +1,28 @@
+{
+  "name": "bs-payment-test",
+  "version": "1.0.0",
+  "description": "BS支付系统API测试项目 - 基于 doc.bs123.org",
+  "main": "bs_api_client.py",
+  "scripts": {
+    "test": "python bs_api_client.py",
+    "test-all": "python bs_api_client.py --test all",
+    "test-collection": "python bs_api_client.py --test collection",
+    "test-remit": "python bs_api_client.py --test remit",
+    "test-balance": "python bs_api_client.py --test balance"
+  },
+  "keywords": [
+    "bs-payment",
+    "api",
+    "test",
+    "usdt",
+    "remittance"
+  ],
+  "author": "OpenClaw",
+  "license": "MIT",
+  "dependencies": {
+    "requests": "^2.31.0"
+  },
+  "devDependencies": {
+    "cryptography": "^41.0.0"
+  }
+}
