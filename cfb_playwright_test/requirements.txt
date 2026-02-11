@@ -1,0 +1,16 @@
+# Playwright浏览器自动化测试 - 依赖列表
+
+# 核心依赖
+playwright>=1.40.0
+pytest>=7.0.0
+
+# 报告生成
+pytest-html>=4.0.0
+pytest-allure-adapter>=0.1
+
+# 工具类
+python-dotenv>=1.0.0
+PyYAML>=6.0
+
+# 可选依赖
+# allure-pytest>=2.13.0  # 需要Java运行时
