@@ -1,0 +1,19 @@
+# CFB支付系统测试 - 依赖列表
+
+# 核心依赖
+requests>=2.28.0
+pytest>=7.0.0
+
+# 签名相关
+cryptography>=41.0.0
+
+# 报告生成
+allure-pytest>=2.13.0
+pytest-html>=4.0.0
+
+# 浏览器自动化
+playwright>=1.40.0
+
+# 工具类
+python-dotenv>=1.0.0
+PyYAML>=6.0
