@@ -1,0 +1,16 @@
+{
+  "name": "cfb-bs-unified",
+  "version": "1.0.0",
+  "description": "CFB浏览器自动化 + BS API测试 统一项目",
+  "scripts": {
+    "test:admin": "node tests/admin_login.js",
+    "test:merch": "node tests/merch_login.js",
+    "test:collection": "node tests/collection.js",
+    "test:payout": "node tests/payout.js",
+    "api:test": "cd api && python quick_test.py",
+    "api:balance": "cd api && python quick_test.py --test balance"
+  },
+  "dependencies": {
+    "otpauth": "^9.3.4"
+  }
+}

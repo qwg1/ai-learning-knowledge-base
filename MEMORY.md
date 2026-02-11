@@ -62,3 +62,28 @@
 - 成功实现agent-browser浏览器自动化发布
 - 掌握复盘总结和经验沉淀方法
 - 具备处理复杂页面元素的能力（多DOM元素、contenteditable等）
+
+## CFB支付系统配置
+
+### 统一项目
+- **项目位置**: `cfb_bs_unified/`
+- **功能**: 合并了CFB浏览器自动化 + BS API测试
+- **配置**: `config.js` 统一管理所有密钥
+
+### 用户配置
+
+| 用户 | TOTP密钥 |
+|------|----------|
+| admin | `53JNRCVNUC2ZZ2OV5TDT5DWWK3TM7TXU` |
+| merch(10228) | `53JNRCHHK5TSO4LDNBSGKQLXHNUGLKRN` |
+| agent | `S4JW5BTMJNFWYPBZM4GGZDFPOKHBMZYB` |
+
+### 经验教训
+- Vue.js的v-model绑定值无法通过JavaScript直接读取
+- 解决方案：截图保存或手动复制
+- 验证码30秒过期，每次登录需重新生成
+- CFB需要验证码，BS API不需要
+
+### 待完成任务
+- [ ] 从后台获取RSA私钥和公钥
+- [ ] 完善API测试功能
