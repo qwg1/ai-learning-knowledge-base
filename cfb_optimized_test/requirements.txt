@@ -1,0 +1,8 @@
+# CFB支付系统 - 优化后的依赖
+
+# TOTP验证码生成
+pyotp>=1.6.0
+
+# 可选依赖（如果需要Playwright）
+# playwright>=1.40.0
+# pytest>=7.0.0
